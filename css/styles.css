@@ -54,6 +54,13 @@ ul{
     margin: auto;
     align-items: center;
 }
+@media screen and (width>758px){
+    .card{
+        width: 450px;
+        height: 697px;
+    }
+}
+
 .illustration{
     margin-bottom: 5%;
 }
@@ -64,13 +71,24 @@ ul{
 .title{
     font-size: 22px;
 }
+@media screen and (width>758px){
+    .title{
+        font-size: 28px;
+    }
+}
 .text-summary{
     width: 263px;
     font-weight: 500;
     text-align: center;
-    font-size: 15px;
+    
     line-height: 25px;
     margin: 0 0 5% 0;
+}
+@media screen and (width>758px){
+    .text-summary{
+        width: 354px;
+        font-size: 16px;
+    }
 }
 .plan{
     width: 279px;
@@ -83,9 +101,20 @@ ul{
     justify-content: space-around;
     margin-bottom: 5%;
 }
+@media screen and (width>758px){
+    .plan{
+        width: 354px;
+        height: 98px;
+    }
+}
 .price p{
     margin: 0;
     font-size: 14px;
+}  
+@media screen and (width>758px){
+    .price p{
+        font-size: 16px;
+    }
 }
 .amount{
     align-self: self-end;
@@ -94,6 +123,14 @@ ul{
     color: #382AE1;
     font-size: 13px;
     font-weight: 700;
+}
+@media screen and (width>758px){
+    .edit-price{
+        font-size: 14px;
+    }
+}
+.edit-price:hover{
+    color: #766CF1;
 }
 .payment-button, .cancel-order{
     font-size: 15px;
@@ -110,6 +147,18 @@ ul{
     margin-bottom: 7%;
     box-shadow: 0 15px 10px rgba(0, 0, 0, 0.1)
 }
+.payment-button:hover{
+    background-color: #766CF1;
+}
+@media screen and (width>758px){
+    .payment-button{
+        width: 354px;
+        height: 50px;
+    }
+}
 .cancel-order{
     text-decoration: none;
+}
+.cancel-order:hover{
+    color: black;
 }
